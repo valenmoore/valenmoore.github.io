@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script</title>
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            // Check if the parent document is accessible and manipulate it
+            try {
+                console.log("hello");
+            } catch (e) {
+                console.error('Unable to access parent document:', e);
+            }
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>
